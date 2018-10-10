@@ -10,6 +10,7 @@ namespace AzureSamples
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
