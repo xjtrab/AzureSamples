@@ -11,8 +11,8 @@ namespace ServiceBusSample
         static IQueueClient queueClient;
         static void Main(string[] args)
         {
-            string ServiceBusConnectionString = "Endpoint=sb://recallsb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=+9mRrDQtzkamn1HmP5o=";
-            string QueueName = "recallsb";
+            string ServiceBusConnectionString = "";
+            string QueueName = "";
 
             for (int i = 0; i < args.Length; i++)
             {
