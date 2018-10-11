@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubSample.Sender", "Ev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubSample.Receiver", "EventHubSample.Receiver\EventHubSample.Receiver.csproj", "{8FF25384-2099-44C1-99C8-2497A66AB410}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusSample", "ServiceBusSample\ServiceBusSample.csproj", "{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8FF25384-2099-44C1-99C8-2497A66AB410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FF25384-2099-44C1-99C8-2497A66AB410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FF25384-2099-44C1-99C8-2497A66AB410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
