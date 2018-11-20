@@ -5,11 +5,15 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSamples", "AzureSamples\AzureSamples.csproj", "{42AD8210-2B91-42E1-A095-8F25DA08C443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubSample.Sender", "EventHubSample.Sender\EventHubSample.Sender.csproj", "{5862C53A-10C8-4BBD-8EF9-C6ABDB45710F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubSample.Sender", "EventHubSample.Sender\EventHubSample.Sender.csproj", "{5862C53A-10C8-4BBD-8EF9-C6ABDB45710F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubSample.Receiver", "EventHubSample.Receiver\EventHubSample.Receiver.csproj", "{8FF25384-2099-44C1-99C8-2497A66AB410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubSample.Receiver", "EventHubSample.Receiver\EventHubSample.Receiver.csproj", "{8FF25384-2099-44C1-99C8-2497A66AB410}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusSample", "ServiceBusSample\ServiceBusSample.csproj", "{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusSample", "ServiceBusSample\ServiceBusSample.csproj", "{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSample.Sender", "StorageSample.Sender\StorageSample.Sender.csproj", "{20BE496B-2AEA-43C9-8A7D-910A502B6545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonConvertSerializaObject", "JsonConvertSerializaObject\JsonConvertSerializaObject.csproj", "{43DA76A1-F0B0-437F-93A3-978447359300}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBAA1CB3-C768-46B7-B4C5-B17849DF15EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BE496B-2AEA-43C9-8A7D-910A502B6545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BE496B-2AEA-43C9-8A7D-910A502B6545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BE496B-2AEA-43C9-8A7D-910A502B6545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BE496B-2AEA-43C9-8A7D-910A502B6545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DA76A1-F0B0-437F-93A3-978447359300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DA76A1-F0B0-437F-93A3-978447359300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DA76A1-F0B0-437F-93A3-978447359300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DA76A1-F0B0-437F-93A3-978447359300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

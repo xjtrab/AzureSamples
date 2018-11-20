@@ -11,8 +11,8 @@ namespace ServiceBusSample
         static IQueueClient queueClient;
         static void Main(string[] args)
         {
-            string ServiceBusConnectionString = "";
-            string QueueName = "";
+            string ServiceBusConnectionString = "Endpoint=sb://recallsb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=yfOUxYJAcocikEBkrf8OHDZ5+9mRrDQtzkamn1HmP5o=";
+            string QueueName = "myqueue";
 
             for (int i = 0; i < args.Length; i++)
             {
@@ -40,7 +40,7 @@ namespace ServiceBusSample
 
         static async Task MainAsync(string ServiceBusConnectionString, string QueueName)
         {
-            const int numberOfMessages = 10;
+            const int numberOfMessages = 10000;
             queueClient = new QueueClient(ServiceBusConnectionString, QueueName);
 
             Console.WriteLine("======================================================");
@@ -48,7 +48,7 @@ namespace ServiceBusSample
             Console.WriteLine("======================================================");
 
             // Register QueueClient's MessageHandler and receive messages in a loop
-            RegisterOnMessageHandlerAndReceiveMessages();
+            //RegisterOnMessageHandlerAndReceiveMessages();
 
             // Send Messages
             await SendMessagesAsync(numberOfMessages);

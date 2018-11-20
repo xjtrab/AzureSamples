@@ -25,6 +25,7 @@ namespace EventHubSample.Receiver
         {
             Console.WriteLine("Registering EventProcessor...");
 
+           
             var eventProcessorHost = new EventProcessorHost(
                 EventHubName,
                 PartitionReceiver.DefaultConsumerGroupName,
